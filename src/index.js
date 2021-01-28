@@ -1,0 +1,5 @@
+import './JS/modal'
+import './JS/carusel'
+import './styles.css'
+import './JS/jsson'
+import './JS/localstorage'
