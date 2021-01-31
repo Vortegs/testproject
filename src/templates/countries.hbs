@@ -1,0 +1,16 @@
+{{#each this}}
+
+<li>
+    <p>Страна {{name}}</p>
+    <img src="{{flag}}" alt="Флаг {{name}}" width="200px">
+    <p>Столица {{capital}} </p>
+    <p>Валюта {{currency}}</p>
+    <p>Язык {{language}}</p>
+    <p>Население {{population}}</p>
+    {{#if infected}}
+    <p>Есть зараженные!</p>
+    {{/if}}
+</li>
+
+
+{{/each}}

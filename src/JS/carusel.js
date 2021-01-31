@@ -8,7 +8,7 @@ const refs = {
 function getImage(arr) {
     const list = 
         arr.map(({ preview}) => `
-    <div class = 'gallery__item'><img class 'gallery__image' src= ${preview}></div>`).join('')
+    <div class = 'gallery__item'><img class 'gallery__image' src= ${preview} width="200px" ></div>`).join('')
     return list;
 }
 
